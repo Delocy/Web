@@ -7,29 +7,32 @@ import { HiArrowDown } from "react-icons/hi"
 const HeroSection = () => {
   return (
     <section id="home">
-      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-48 md:flex-row md:space-x-4 md:text-left">
-        <div className="md:mt-2 md:w-1/2">
+      <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32  ">
+        <div >
           <Image
-            src="/headshot.png"
-            alt=""
+            src="/profile.png"
+            alt="profile"
             width={325}
             height={325}
-            className="rounded-full shadow-2xl"
           />
         </div>
         <div className="md:mt-2 md:w-3/5">
-          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Hi, I&#39;m Hosna!</h1>
-          <p className="text-lg mt-4 mb-6 md:text-2xl">
-            I&#39;m a{" "}
-            <span className="font-semibold text-teal-600">
-              Software Engineer{" "}
+        <h1 className="font-sans text-3xl md:text-2xl"> Hello, I'm</h1>
+          <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">Zares Tng</h1>
+          <p className="text-lg mt-5 mb-6 md:text-2xl">
+            I&#39;m an{" "}
+            <span className="font-semibold text-green-700">
+              anspiring Software Engineer{" "}
             </span>
-            based in Los Angeles, CA. Working towards creating software that
-            makes life easier and more meaningful.
+            with a keen interest in{" "}
+            <span className="font-semibold text-green-700">
+              frontend development
+            </span>
+            . My passion lies in crafting responsive and performant web applications that deliver exceptional user experiences.
           </p>
           <Link
             to="projects"
-            className="text-neutral-100 font-semibold px-6 py-3 bg-teal-600 rounded shadow hover:bg-teal-700"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-green-700 rounded shadow hover:bg-green-800"
             activeClass="active"
             spy={true}
             smooth={true}
