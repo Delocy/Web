@@ -42,7 +42,7 @@ const ProjectsSection = () => {
                 <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                   <div className="md:w-1/2">
                     <Link href={project.link} target="_blank" rel="noopener noreferrer">
-                      <div className="bg-white rounded-xl shadow-xl hover:opacity-70">
+                      <div className=" bg-white rounded-xl shadow-xl hover:opacity-70">
                         
                         <Image
                           src={project.image}
