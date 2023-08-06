@@ -1,9 +1,8 @@
 import React from "react"
 import {
   AiOutlineGithub,
-  AiOutlineTwitter,
   AiOutlineLinkedin,
-  AiOutlineYoutube,
+  AiFillMail,
 } from "react-icons/ai"
 
 const Footer = () => {
@@ -15,18 +14,24 @@ const Footer = () => {
           © 2023 Zares Tng<a href="/" className="hover:underline"></a>
         </div>
         <div className="flex flex-row items-center justify-center space-x-2 mb-1">
-          <a href="https://github.com/hqasmei" rel="noreferrer" target="_blank">
+          <a href="https://github.com/Delocy" rel="noreferrer" target="_blank">
             <AiOutlineGithub
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
           </a>
           <a
-            href="https://www.linkedin.com/in/hosnaqasmei/"
+            href="https://www.linkedin.com/in/zares-tng-738731177"
             rel="noreferrer"
             target="_blank"
           >
             <AiOutlineLinkedin
+              className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
+              size={30}
+            />
+          </a>
+          <a href="mailto:tngzhexuan@gmail.com" rel="noreferrer" target="_blank">
+            <AiFillMail
               className="hover:-translate-y-1 transition-transform cursor-pointer text-neutral-500 dark:text-neutral-100"
               size={30}
             />
