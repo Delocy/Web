@@ -18,7 +18,7 @@ const projects = [
     name: "CarHub",
     subtitle: "React, Next.js 13, TypeScript, Tailwind CSS",
     description:
-      "In this project, I've learned how to use Tailwind CSS and incorporate APIs to style and deploy a modern and responsive landing page.",
+      "In this project, through a comprehensive tutorial, I've learned how to use Tailwind CSS and incorporate APIs to style and deploy a modern and responsive landing page.",
     image: "/CarShowcase.png",
     github: "https://github.com/Delocy/car_showcase",
     link: "https://car-showcase-theta-rouge.vercel.app/",
@@ -27,8 +27,8 @@ const projects = [
     name: "Modern Next.js 13 Website with Framer Motion and Tailwind CSS",
     subtitle: " Next.js 13, Framer Motion, and Tailwind CSS",
     description: `
-    In this project, I honed my skills through a comprehensive tutorial.
-    I've also learned how to bring seamless animations and stunning gradients to life through Framer Motion.
+    In this project, through a comprehensive tutorial.
+    I've learned how to bring seamless animations and stunning gradients to life through Framer Motion.
     The tutorial also guided me in harnessing the flexibility of flex properties and essential CSS concepts alongside the integration of flawlessly executed media queries for responsiveness.
     `,
     image: "/Metaverse.png",
