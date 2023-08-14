@@ -35,6 +35,17 @@ const projects = [
     github: "https://github.com/Delocy/metaverse",
     link: "https://metaverse-lilac.vercel.app/",
   },
+  {
+    name: "Climavisions",
+    subtitle: "Next.js 13, Framer Motion, and Tailwind CSS",
+    description: `
+    With reference to the previous two tutorial.
+    I've learned how to apply framer motion and Tailwind CSS in creating a weather tracker website that uses the OpenWeather API and is also responsive.
+    `,
+    image: "/weatherApp.png",
+    github: "https://github.com/Delocy/weather",
+    link: "https://weather-three-mu.vercel.app/",
+  },
   // Add more projects here
 ];
 
