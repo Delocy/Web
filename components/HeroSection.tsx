@@ -30,7 +30,8 @@ const HeroSection = () => {
             </span>
             . My passion lies in crafting responsive and performant web applications that deliver exceptional user experiences.
           </p>
-          <Link
+          <div className="flex space-x-4 justify-center">
+            <Link
             to="projects"
             className="text-neutral-100 font-semibold px-6 py-3 bg-green-700 rounded shadow hover:bg-green-800"
             activeClass="active"
@@ -41,6 +42,18 @@ const HeroSection = () => {
           >
             Projects
           </Link>
+          
+          <a
+            href="https://www.figma.com/@DelocyDesign"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-neutral-100 font-semibold px-6 py-3 bg-orange-500 rounded shadow hover:bg-orange-700"
+          >
+            View My Figma Profile
+          </a>
+          </div>
+          
+     
         </div>
       </div>
       <div className="flex flex-row items-center text-center justify-center ">
