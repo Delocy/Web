@@ -15,6 +15,15 @@ const projects = [
     link: "https://drive.google.com/file/d/1nQBcyQO4m-uJkFFlBk09RQxKXVklxAKM/view?usp=drive_link",
   },
   {
+    name: "FlightReservationSystem",
+    subtitle: "Java, Jakarta EE, NetBeans",
+    description:
+      "FlightReservationSystem is an innovative back-end solution designed to streamline the online booking process for the aviation industry. Developed using Jakarta EE and NetBeans, this system is engineered to provide a robust and secure environment for managing flight reservations. It caters to multiple user roles, each with tailored access rights, enabling efficient management and an enhanced customer experience.",
+    image: "/flightBooking.png",
+    github: "https://github.com/Delocy/FlightReservationSystem",
+    link: "https://github.com/Delocy/FlightReservationSystem",
+  },
+  {
     name: "CarHub",
     subtitle: "React, Next.js 13, TypeScript, Tailwind CSS",
     description:
